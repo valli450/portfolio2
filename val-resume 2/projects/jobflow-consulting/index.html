@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="JobFlow Consulting case study: Val Dranov's automation and AI practice for local businesses around Greater Boston and the South Shore, with an autonomous customer-acquisition pipeline.">
+<title>JobFlow Consulting - Case Study by Val Dranov</title>
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%235fc492'/%3E%3Ctext x='32' y='43' font-family='system-ui' font-size='32' font-weight='700' fill='%2308130d' text-anchor='middle'%3EV%3C/text%3E%3C/svg%3E">
+<link rel="stylesheet" href="../../css/site.css">
+<link rel="stylesheet" href="console.css">
+</head>
+<body>
+
+<header class="nav">
+  <div class="wrap nav-inner">
+    <a class="nav-name" href="../../index.html"><span class="dot-mark">VD</span>Val Dranov</a>
+    <nav class="nav-links">
+      <a href="../../index.html#work">Work</a>
+      <a href="../../index.html#about">About</a>
+      <a class="nav-cta" href="https://github.com/VALLI450" target="_blank" rel="noopener">
+        <span data-icon="github-logo"></span>GitHub
+      </a>
+    </nav>
+  </div>
+</header>
+
+<main class="wrap">
+  <div style="max-width: 860px; margin: 0 auto; padding-top: 56px">
+    <div class="case-head">
+      <a class="back" href="../../index.html"><span data-icon="arrow-left"></span>All work</a>
+      <h1>JobFlow Consulting</h1>
+      <p class="lede">An automation and AI practice for local businesses around Greater Boston and the South Shore. Dental offices, bottle shops, landscapers: if the work repeats, an agent runs it.</p>
+      <div class="case-meta">
+        <span>Automation and AI consulting</span>
+        <span>Greater Boston and the South Shore</span>
+        <span>Live client-style builds linked below</span>
+      </div>
+    </div>
+
+    <div class="case-body">
+
+      <section class="reveal">
+        <h2>Customer acquisition that runs itself</h2>
+        <p>The most unusual thing about this practice is how it finds its clients. <strong>Autonomous agents work around the clock:</strong> they scout local businesses with weak or missing web presence, generate a working preview site or automation before any contact is made, send the pitch with the proof attached, answer replies in real time, and book the call.</p>
+        <p>Val's role starts where the agents stop: the booked call, the scoping, the judgment. Almost no manual prospecting, no cold-call afternoons. The panel below replays a night on the pipeline.</p>
+        <div class="cx" data-console style="margin-top: 26px"></div>
+        <p class="cx-note">Simulated replay. Towns and timings are illustrative of a typical cycle; no client data is shown.</p>
+      </section>
+
+      <section class="reveal" id="generator">
+        <h2>Watch a preview get built</h2>
+        <p>The console above says the agents build a preview before they ever say hello. This is that artifact. Pick a business and a town, and the engine assembles a working storefront the same way it does overnight.</p>
+        <div class="gen-controls">
+          <select id="gen-type" aria-label="Business type">
+            <option value="bottle">Bottle shop</option>
+            <option value="pizza">Pizza place</option>
+            <option value="landscape">Landscaping co</option>
+          </select>
+          <select id="gen-town" aria-label="Town">
+            <option>Quincy</option>
+            <option selected>Braintree</option>
+            <option>Weymouth</option>
+            <option>Hingham</option>
+            <option>Plymouth</option>
+          </select>
+          <button class="btn btn-solid btn-sm" id="gen-go">Generate the preview</button>
+        </div>
+        <div class="gen-browser">
+          <div class="gen-bar"><span data-icon="lock"></span><span id="gen-url">preview.jobflow.digital</span></div>
+          <div class="gen-stage" id="gen-stage">
+            <div class="gen-empty">Pick a business type and generate. The storefront that appears is a working interface: edit a price, mark a bottle allocated, watch it react.</div>
+          </div>
+        </div>
+        <p class="cx-note">Assembly is staged for the demo; the storefront it produces is a live interface. One that shipped for real: <a href="https://valli450.github.io/Liquor-store/" target="_blank" rel="noopener" style="color:var(--accent)">Wine Basket and Spirits, Brighton</a>.</p>
+      </section>
+
+      <section class="reveal">
+        <h2>The playbook</h2>
+        <p>Sixteen of the automations JobFlow Consulting deploys for local businesses, grouped by where they hit hardest.</p>
+        <div class="play-grid">
+          <div class="cluster-head">Front desk and bookings</div>
+          <div class="play-card"><div class="biz">Dental office</div><div class="what">An agent refills cancelled slots from the recall list by text, so chairs never sit empty.</div></div>
+          <div class="play-card"><div class="biz">Dental office</div><div class="what">Insurance intake forms verified and summarized before the patient arrives.</div></div>
+          <div class="play-card"><div class="biz">Restaurant</div><div class="what">Missed-call text-back that takes the reservation the phone line dropped.</div></div>
+          <div class="play-card"><div class="biz">Barbershop</div><div class="what">No-show protection: confirmations, reminders, and waitlist backfill without the front desk.</div></div>
+          <div class="play-card"><div class="biz">Med spa</div><div class="what">Appointment deposits and reminder flows that cut no-shows before they happen.</div></div>
+          <div class="play-card"><div class="biz">Daycare</div><div class="what">Waitlist management and enrollment paperwork collected and chased automatically.</div></div>
+
+          <div class="cluster-head">Money and back office</div>
+          <div class="play-card"><div class="biz">Landscaping</div><div class="what">Photo-to-quote: the homeowner texts yard photos, the agent drafts the estimate for approval.</div></div>
+          <div class="play-card"><div class="biz">HVAC</div><div class="what">Seasonal tune-up reminders with self-serve booking, timed to the first cold week.</div></div>
+          <div class="play-card"><div class="biz">Law office</div><div class="what">Intake triage: new-client forms summarized into a brief before the consult.</div></div>
+          <div class="play-card"><div class="biz">Restaurant</div><div class="what">Catering quotes assembled from a forwarded email thread, priced from the menu sheet.</div></div>
+          <div class="play-card"><div class="biz">Cleaning company</div><div class="what">Recurring invoicing and payment chasing that never forgets a unit.</div></div>
+
+          <div class="cluster-head">Marketing and storefronts</div>
+          <div class="play-card"><div class="biz">Liquor store</div><div class="what">A storefront site with live inventory and a phone-order delivery flow. See the live build below.</div></div>
+          <div class="play-card"><div class="biz">Liquor store</div><div class="what">Rare-bottle drop alerts to a text list that sells allocations in hours, not weeks.</div></div>
+          <div class="play-card"><div class="biz">Bakery</div><div class="what">Daily specials posted to socials from a single text message with a photo.</div></div>
+          <div class="play-card"><div class="biz">Auto shop</div><div class="what">Post-service follow-ups with review requests routed by customer sentiment.</div></div>
+          <div class="play-card"><div class="biz">Gym</div><div class="what">Win-back sequences for lapsed members, written and sent without a marketer.</div></div>
+        </div>
+      </section>
+
+      <section class="reveal">
+        <h2>How the outreach works</h2>
+        <div class="decision">
+          <h3>Build first, pitch second</h3>
+          <p>The agents never send a cold email with promises. They send a working preview: a storefront already stocked with the business's real category structure, or an automation demo built around its actual workflow. The pitch is the product.</p>
+        </div>
+        <div class="decision">
+          <h3>Replies handled in real time</h3>
+          <p>When an owner writes back at 8 am asking whether the site can take delivery orders, the agent answers in seconds with the specific screen that does it. Momentum never dies in an inbox.</p>
+        </div>
+        <div class="decision">
+          <h3>The human closes</h3>
+          <p>Agents book the call; Val takes it. Scoping, pricing, and judgment stay human. The machine removes the eighty percent of sales work that never needed a person.</p>
+        </div>
+      </section>
+
+      <section class="reveal">
+        <h2>Proof you can click</h2>
+        <div class="proof-row">
+          <a class="proof-card" href="https://valli450.github.io/Liquor-store/" target="_blank" rel="noopener">
+            <div class="kind">Client-style storefront</div>
+            <div class="name">Wine Basket and Spirits<span data-icon="arrow-up-right"></span></div>
+            <div class="desc">A Brighton bottle shop site: inventory, rare allocations, and phone-order delivery.</div>
+          </a>
+          <a class="proof-card" href="https://valli450.github.io/test23/" target="_blank" rel="noopener">
+            <div class="kind">Practice site</div>
+            <div class="name">JobFlow automation<span data-icon="arrow-up-right"></span></div>
+            <div class="desc">The public face of the practice: trigger, connect, process, done.</div>
+          </a>
+          <a class="proof-card" href="../jobflow/index.html">
+            <div class="kind">Product case study</div>
+            <div class="name">JobFlow platform<span data-icon="arrow-right"></span></div>
+            <div class="desc">The contractor business platform, with a live interactive demo on this site.</div>
+          </a>
+        </div>
+      </section>
+
+      <section class="reveal">
+        <h2>Track record</h2>
+        <div class="record-list">
+          <div class="rec"><span data-icon="device-mobile"></span><div><div class="t">Shipped JobFlow, a mobile-first business platform for contractors</div><div class="s">Projects, invoicing with deposits, expenses, crew PIN access. Live demo on this site.</div></div></div>
+          <div class="rec"><span data-icon="briefcase"></span><div><div class="t">Designed and launched storefront sites for local retailers</div><div class="s">Including a Brighton bottle shop build with inventory and delivery flows, linked above.</div></div></div>
+          <div class="rec"><span data-icon="path"></span><div><div class="t">Built an autonomous customer-acquisition pipeline</div><div class="s">Agents that scout, build previews, run outreach, and book calls around the clock.</div></div></div>
+          <div class="rec"><span data-icon="users-three"></span><div><div class="t">Runs a one-operator practice serving many local businesses</div><div class="s">Software does the repetitive work. The human does the judgment.</div></div></div>
+          <div class="rec"><span data-icon="chart-line-up"></span><div><div class="t">Turned AI from a demo into deployed, boring, reliable plumbing</div><div class="s">Sixteen playbook automations across six industries, from recall lists to rare-bottle drops.</div></div></div>
+        </div>
+      </section>
+
+    </div>
+  </div>
+</main>
+
+<footer class="footer">
+  <div class="wrap footer-inner">
+    <div class="sig">Val Dranov<span>builds tools for real work</span></div>
+    <div class="footer-links">
+      <a href="https://github.com/VALLI450" target="_blank" rel="noopener"><span data-icon="github-logo"></span>GitHub</a>
+      <a href="../../index.html#work">More work</a>
+    </div>
+  </div>
+</footer>
+
+<script src="../jobflow/icons.js"></script>
+<script src="../../js/site.js"></script>
+<script src="console.js"></script>
+<script src="generator.js"></script>
+</body>
+</html>

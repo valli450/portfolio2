@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="JobFlow case study: a mobile-first business platform for field-service contractors, built by Val Dranov. Includes a live interactive demo.">
+<title>JobFlow - Case Study by Val Dranov</title>
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%235fc492'/%3E%3Ctext x='32' y='43' font-family='system-ui' font-size='32' font-weight='700' fill='%2308130d' text-anchor='middle'%3EV%3C/text%3E%3C/svg%3E">
+<link rel="stylesheet" href="../../css/site.css">
+</head>
+<body>
+
+<header class="nav">
+  <div class="wrap nav-inner">
+    <a class="nav-name" href="../../index.html"><span class="dot-mark">VD</span>Val Dranov</a>
+    <nav class="nav-links">
+      <a href="../../index.html#work">Work</a>
+      <a href="../../index.html#about">About</a>
+      <a class="nav-cta" href="https://github.com/VALLI450" target="_blank" rel="noopener">
+        <span data-icon="github-logo"></span>GitHub
+      </a>
+    </nav>
+  </div>
+</header>
+
+<main class="wrap">
+  <div class="case-layout">
+
+    <div>
+      <div class="case-head">
+        <a class="back" href="../../index.html"><span data-icon="arrow-left"></span>All work</a>
+        <div class="eyebrow">Case study</div>
+        <h1>JobFlow</h1>
+        <p class="lede">A contractor's entire back office, rebuilt for a phone in a work truck. Projects, invoices, deposits, expenses, and crew, all moving together in real time.</p>
+        <div class="case-meta">
+          <span>Mobile-first platform</span>
+          <span>Designed and built by Val Dranov</span>
+          <span>Live interactive demo</span>
+        </div>
+
+        <div class="demo-controls reveal">
+          <button class="primary" data-demo="tour"><span data-icon="play"></span>Run the 60-second tour</button>
+          <button data-demo="home"><span data-icon="house"></span>Owner dashboard</button>
+          <button data-demo="new-invoice"><span data-icon="paper-plane-tilt"></span>Send an invoice</button>
+          <button data-demo="worker"><span data-icon="lock"></span>Worker PIN door</button>
+          <button data-demo="expenses"><span data-icon="wallet"></span>Expenses</button>
+        </div>
+      </div>
+
+      <div class="case-body">
+        <section class="reveal">
+          <h2>The problem</h2>
+          <p>Small trade businesses run six-figure operations out of text threads, paper receipts, and memory. A roofer who bills $400k a year often cannot say, on any given Tuesday, who owes them money or whether a job is still profitable.</p>
+          <p>The software that does exist was built for dispatch offices. It is priced per seat, assumes everyone has a desk, and asks a crew member to create an account before they can check off a task. <strong>JobFlow starts from the opposite end: the phone in the truck.</strong></p>
+        </section>
+
+        <section class="reveal">
+          <h2>Three decisions that shaped it</h2>
+
+          <div class="decision">
+            <h3>Two front doors</h3>
+            <p>Owners sign in with Google and see money. Crews punch a 4-digit PIN handed out by the boss and see today's tasks. No accounts, no email invitations, no app-store friction. A new hire is working inside the app in under a minute. Try it: the PIN door is one tap away in the demo.</p>
+          </div>
+
+          <div class="decision">
+            <h3>Deposits are not an afterthought</h3>
+            <p>Every invoice asks one question: how much of this do you collect before work starts? Half up front, the full amount, or bill now and collect on completion. Cash flow is the number one killer of small trade businesses, so it sits inside the send flow, not in a settings page.</p>
+          </div>
+
+          <div class="decision">
+            <h3>A tax reserve that is always visible</h3>
+            <p>JobFlow quietly holds 25% of net profit in a reserve line on the dashboard. It is the difference between an April surprise and a non-event, and it required exactly zero effort from the owner.</p>
+          </div>
+        </section>
+
+        <section class="reveal">
+          <h2>What the demo shows</h2>
+          <p>Everything in the phone is a working interface with live state, not a video. Send an invoice with a 50% deposit and watch it appear in the open list. Record the payment and the dashboard's collected, profit, and tax numbers all move. Log an expense against a job and its budget bar creeps forward.</p>
+          <p>This demo is a faithful web recreation of the product experience, staged with realistic data. The production app is in private use with real crews today.</p>
+        </section>
+
+        <section class="reveal">
+          <h2>Under the hood</h2>
+          <div class="hood-grid">
+            <div class="cell">
+              <span data-icon="device-mobile"></span>
+              <div class="t">Mobile-first interface</div>
+              <div class="s">Thumb-reach layout: tab bar, bottom sheets, oversized targets for gloved hands.</div>
+            </div>
+            <div class="cell">
+              <span data-icon="shield-check"></span>
+              <div class="t">Role-based access</div>
+              <div class="s">Owner and crew get different apps from the same data, gated by role.</div>
+            </div>
+            <div class="cell">
+              <span data-icon="coins"></span>
+              <div class="t">A single ledger</div>
+              <div class="s">Every dashboard number derives from payments and expenses. Nothing is stored twice, so nothing drifts.</div>
+            </div>
+            <div class="cell">
+              <span data-icon="users-three"></span>
+              <div class="t">Crew coordination</div>
+              <div class="s">Tasks, clock-ins, and site photos flow from the field back to the office live.</div>
+            </div>
+            <div class="cell">
+              <span data-icon="camera"></span>
+              <div class="t">Receipts as photos</div>
+              <div class="s">Snap at the register, tag the job, done. Bookkeeping happens at the point of purchase.</div>
+            </div>
+            <div class="cell">
+              <span data-icon="chart-line-up"></span>
+              <div class="t">Cash-flow by design</div>
+              <div class="s">Deposits, payment reminders, and tax reserves are product features, not reports.</div>
+            </div>
+          </div>
+        </section>
+
+        <section class="reveal case-cta-desktop" style="margin-top:64px">
+          <div class="demo-controls">
+            <button class="primary" data-demo="tour"><span data-icon="play"></span>Watch the tour again</button>
+            <a class="btn btn-line btn-sm" href="app.html" target="_blank" rel="noopener" style="border-radius:999px">
+              Open the demo full screen<span data-icon="arrow-up-right"></span>
+            </a>
+          </div>
+        </section>
+      </div>
+    </div>
+
+    <aside class="case-demo-col">
+      <div class="phone">
+        <div class="island"></div>
+        <iframe id="demo-frame" src="app.html" title="JobFlow live demo" loading="eager"></iframe>
+      </div>
+      <p class="hint">This is not a video. It is the real interface with live data. Click around, nothing breaks.</p>
+    </aside>
+
+  </div>
+</main>
+
+<div class="demo-bar">
+  <a href="app.html"><span data-icon="play"></span>Open the live demo</a>
+</div>
+
+<footer class="footer">
+  <div class="wrap footer-inner">
+    <div class="sig">Val Dranov<span>builds tools for real work</span></div>
+    <div class="footer-links">
+      <a href="https://github.com/VALLI450" target="_blank" rel="noopener"><span data-icon="github-logo"></span>GitHub</a>
+      <a href="../../index.html#work">More work</a>
+    </div>
+  </div>
+</footer>
+
+<script src="icons.js"></script>
+<script src="../../js/site.js"></script>
+</body>
+</html>
